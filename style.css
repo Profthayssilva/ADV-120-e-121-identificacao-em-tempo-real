@@ -1,0 +1,52 @@
+  .heading
+  {
+    /* adicionar estilo para aumentar o tamanho da fonte em 23px */
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .headingDiv
+  {
+    /* adicionar a propriedade float none */
+    float: none ; 
+    background: white ; 
+    /* adicionar estilo para adicionar 10px de preenchimento */
+    padding: 10px; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .headingDiv2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    /* adicionar um estilo à tag span que está dentro da tag p */
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .result_para_tag span
+  {
+    white-space: pre-line;
+  }
+  /* adicione estilo para a classe copyRightFooter */
+  .copyRightFooter {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    line-height: 3;
+    text-align: center;
+ }
+ /* adicionar estilo a tela */
+  canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    box-shadow:5px 5px 5px grey;
+    margin-top: 160px; 
+  }
+ 
